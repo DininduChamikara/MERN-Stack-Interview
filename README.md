@@ -125,6 +125,62 @@ Backend:
 
 ### Intermediate Node JS Questions
 
+1. What does event-driven programming mean?
+* If something happens, something else happens as a response. An event can be anything, such as the pressing of a key or clicking a mouse button.
+
+2. What is an Event Loop in Node JS?
+* An event loop is an endless loop, which waits for tasks, executes them and then sleeps until it receives more tasks.
+
+3. What is an Event Emitter in Node JS?
+* EventEmiter is a class that holds all the objects that can emit events.
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/45206060-90ca-4c78-8693-8acc03c8eec6)
+
+4. What are the two types of API functions in Node JS?
+* Asynchronous, non-blocking functions
+* Synchronous, blocking functions.
+
+5. What is a package.json file?
+* Holds the metadata about a particular project.
+* package.json is present in the root directory of any Node application or module.
+
+6. How would you use a URL module in Node JS?
+* It is a built-in module that helps in splitting up the web address into a readable format.
+
+7. What is the Express JS package?
+* Express is a flexible Node JS web application framework that provides a wide set of features to develop both web and mobile applications.
+
+8. What are the Streams in Node JS?
+* Streams are objects that let you read data or write data continuously.
+* There are 4 types of streams:
+  - Readable
+  - Writable
+  - Duplex: both readable and writable
+  - Transform: Streams that can manipulate the data while it is being read or written.
+
+9. How to create a simple server in Node JS that returns Hello World?
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/a810aed7-39d7-413f-a434-c85ad0f38c9d)
+
+10. Explain asynchronous and non-blocking API in Node JS.
+* All the APIs of the Node JS library are asynchronous which means non-blocking.
+* Node.js based server never waits for an API to return data, instead it moves to the next API after calling it, and a notification mechanism of events of Node.js responds to the server for the previous API call.
+
+11. How do we implement async in Node.js?
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/52888297-4cb5-4603-be91-4d40b4897005)
+
+12. What is the purpose of module.exports?
+* A module in Node JS is used to encapsulate all the related codes into a single unit fo code which can be interpreted by shifting all related functions into a single file.
+* You can export a module using module.exports so that it can be imported in another file using require keyword.
+
+13. What is a callback function in Node JS?
+* A callback is a function called at the completion of a given task and this prevents any blocking, and allows other code to be run in the meantime.
+
+
+## MongoDB
+
+
 
 
  
