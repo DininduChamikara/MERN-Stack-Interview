@@ -180,6 +180,61 @@ Backend:
 
 ## MongoDB
 
+1. Explain what is MongoDB and its features?
+* MongoDB is a NoSQL database that stores large volumes of data in the form of documents.
+* NoSQL can be faster than SQL since the SQL basically follows the normalized structure and so, when quiering sometimes need to connect more tables in SQL.
+
+2. What are some alternative NoSQL databases to MongoDB?
+* Cassandra - scalability and high availability
+* Amazon DynamoDB
+* redis
+
+3. What type of NoSQL database is MongoDB?
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/eb6864d3-288e-469a-b61c-a0b8e280cf18)
+
+4. How does MongoDB store data?
+* MongoDB stores data records as documents (specifically BSON documents) which are gathered together in a collection.
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/bc4999af-6cf7-4ba9-8f86-0e2feee02daf)
+
+5. MongoDB is a Schema-less database. If yes, how do you create Schema in MongoDB?
+* The schema of a database describes the structure of the data to be stored.
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/04b49f80-b0b3-4bc9-9c15-59c626b4935a)
+
+6. How is MongoDB different from SQL and better than MySQL?
+* MongoDB is a document-oriented NoSQL database used for high-volume data storage.
+* SQL is a programming language used to communicate with and manipulate relational database like MySQL.
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/3a533c8a-cb70-42e0-a794-7f3d504e5ea2)
+
+* MongoDB is better at handling unstructured data.
+  
+7. How does indexing work in MongoDB?
+* Indexes provide users with an efficient way of querying data.
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/7978675a-396c-405f-bdd2-afbb7cfe63d1)
+
+8. What is MongoDB replication and Sharding?
+* Replication means duplicating the same data across multiple MongoDB servers.
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/c485c1a0-bd52-41ca-8f02-c57f9c8740f0)
+
+* Sharding is a method of distributing data across multiple Databases MongoDB supports developments with large data sets and high throughput operations via Sharding.
+
+10. Explain Horizontal and Vertical scaling.
+* Vertical scaling refers to adding more resources to your server (database or application server remains one) as on demand.
+* Horizontal Scaling involves adding more processing units or physical machines to your server or database.
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/d9f3dcdb-380d-462b-b15a-5f975c0d6805)
+
+11. What are Replica Sets? Explain primary and secondary replica sets.
+
+![image](https://github.com/DininduChamikara/MERN-Stack-Interview/assets/73112985/ea7397a1-53d4-4111-bcfe-ff93b057e157)
+
+12. What is meant by _id field in MongoDB?
+* _id is the field that uniquely identifies a document in the MongoDB collection. If you insert a document that does not contain the _id field, then MongoDB automatically generates the unique id.
 
 
 
